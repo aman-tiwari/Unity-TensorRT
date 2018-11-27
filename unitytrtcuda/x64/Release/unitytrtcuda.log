@@ -1,0 +1,19 @@
+﻿  
+  C:\Users\a\source\repos\unitytrtcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Users\a\Downloads\TensorRT-5.0.4.3.Windows10.x86_64.cuda-9.0.cudnn7.3\TensorRT-5.0.4.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\main.cu.obj "C:\Users\a\source\repos\unitytrtcuda\main.cu" -clean 
+  main.cu
+  Compiling CUDA source file main.cu...
+  
+  C:\Users\a\source\repos\unitytrtcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Users\a\Downloads\TensorRT-5.0.4.3.Windows10.x86_64.cuda-9.0.cudnn7.3\TensorRT-5.0.4.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\main.cu.obj "C:\Users\a\source\repos\unitytrtcuda\main.cu" 
+C:/Users/a/source/repos/unitytrtcuda/main.cu(383): warning : variable "inputTexSize" was declared but never referenced
+C:/Users/a/source/repos/unitytrtcuda/main.cu(391): warning : variable "outputTexSize" was declared but never referenced
+C:/Users/a/source/repos/unitytrtcuda/main.cu(383): warning : variable "inputTexSize" was declared but never referenced
+C:/Users/a/source/repos/unitytrtcuda/main.cu(391): warning : variable "outputTexSize" was declared but never referenced
+  main.cu
+     Creating library C:\Users\a\source\repos\unitytrtcuda\x64\Release\unitytrtcuda.lib and object C:\Users\a\source\repos\unitytrtcuda\x64\Release\unitytrtcuda.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  unitytrtcuda.vcxproj -> C:\Users\a\source\repos\unitytrtcuda\x64\Release\unitytrtcuda.dll
+  unitytrtcuda.vcxproj -> C:\Users\a\source\repos\unitytrtcuda\x64\Release\unitytrtcuda.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\a\source\repos\unitytrtcuda\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.

@@ -15,7 +15,7 @@ This repository allows one to use TensorRT in Unity. Currently, it is at a pre-a
 * Dispose might not clean up all memory.
 
 ## How to use
-* If you're using CUDA 9.0 and Windows 10, you can use the [Unity project](tensor rt) as is. It uses the `unitytrtcuda.dll` included in the [unitytrtcuda/x64/Release](unitytrtcuda/x64/Release). 
+* If you're using CUDA 9.0 and Windows 10, you can use the [Unity project](tensor rt/) as is. It uses the `unitytrtcuda.dll` included in the [unitytrtcuda/x64/Release](unitytrtcuda/x64/Release). 
 * If not, you'll have to build from source.
 
 ### Build from source
